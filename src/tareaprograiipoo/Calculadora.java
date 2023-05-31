@@ -11,7 +11,7 @@ public class Calculadora {
 
     //Constructor de la calse
     public Calculadora(String propietario) {
-        this.tipoCalculadora = "Calculadora Básica";
+        this.tipoCalculadora = "CalculadoraBásica";
         this.dimensionPantalla = 10;
         this.numeroDeSerie = "12345abc";
         this.color = "Azul";

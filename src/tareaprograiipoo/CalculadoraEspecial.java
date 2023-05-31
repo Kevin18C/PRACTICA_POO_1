@@ -1,6 +1,6 @@
 package tareaprograiipoo;
 
-public class CalculadoraEspecial {
+public class CalculadoraEspecial extends Calculadora {
 
     public String tipocalculadora;
     public String color;
@@ -9,17 +9,16 @@ public class CalculadoraEspecial {
     private String nombrePropietario;
 
     public CalculadoraEspecial(String propietario) {
-        this.tipocalculadora = "Special Calculator";
+        this.tipocalculadora = "CalculadoraEspecial";
         this.dimensionPantalla = 10;
         this.numeroDeSerie = "12345abc";
-        this.color = "Blue";
+        this.color = "Azul";
         this.nombrePropietario = propietario;
     }
 
-    public CalculadoraEspecial() {
+    public CalculadoraEspecial(){
     }
 
-    // These are the 6 new methods that you need to add to the class
     public double factorial(int numero) {
         double factorial = 1;
         for (int i = 1; i <= numero; i++) {

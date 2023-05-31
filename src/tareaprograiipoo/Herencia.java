@@ -2,12 +2,11 @@ package tareaprograiipoo;
 
 import java.util.Scanner;
 
-public class tareaprograiipoo {
+public class Herencia {
 
     /**
      * @param args the command line arguments
      */
-    /*
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
         Calculadora calculadora = new Calculadora("KC");
@@ -16,7 +15,7 @@ public class tareaprograiipoo {
         CalculadoraEspecial calculadora1 = new CalculadoraEspecial("KC");
         int opcion;
         double angulo = 30;
-        
+
         do {
             System.out.println("");
             System.out.println("=======================");
@@ -38,22 +37,22 @@ public class tareaprograiipoo {
             opcion = sn.nextInt();
             switch (opcion) {
                 case 1:
-                    System.out.println("El resultado de la suma es = " + calculadora.sumar(10, 5));
+                    System.out.println("El resultado de la suma es = " + calculadora1.sumar(10, 5));
                     break;
                 case 2:
-                    System.out.println("El resultado de la resta es = " + calculadora.restar(10, 5));
+                    System.out.println("El resultado de la resta es = " + calculadora1.restar(10, 5));
                     break;
                 case 3:
-                    System.out.println("El resultado de la multiplicacion es = " + calculadora.multiplicar(10, 5));
+                    System.out.println("El resultado de la multiplicacion es = " + calculadora1.multiplicar(10, 5));
                     break;
                 case 4:
-                    System.out.println("El resultado de la division es = " + calculadora.dividir(10, 5));
+                    System.out.println("El resultado de la division es = " + calculadora1.dividir(10, 5));
                     break;
                 case 5:
-                    System.out.println("El resultado de la raiz cuadrada es = " + calculadora.raizCuadrada(16));
+                    System.out.println("El resultado de la raiz cuadrada es = " + calculadora1.raizCuadrada(16));
                     break;
                 case 6:
-                    System.out.println("Es primo? = " + calculadora.esPrimo(11));
+                    System.out.println("Es primo? = " + calculadora1.esPrimo(11));
                     break;
                 case 7:
                     System.out.println("El resultado del factorial es = " + calculadora1.factorial(10));
@@ -81,7 +80,6 @@ public class tareaprograiipoo {
                     System.out.println("Solo números entre 1 y 13");
             }
         } while (!salir);
-        
+
     }
-    */
 }
