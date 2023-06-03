@@ -35,6 +35,7 @@ public class Herencia {
             System.out.println("Selecciona una opcion");
             System.out.println("=======================");
             opcion = sn.nextInt();
+            
             switch (opcion) {
                 case 1:
                     System.out.println("El resultado de la suma es = " + calculadora1.sumar(10, 5));
